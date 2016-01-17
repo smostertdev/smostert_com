@@ -1,0 +1,46 @@
+/* PROJECT START */
+
+.redbox {
+	margin: 20px 0 20px 300px;
+    font-weight: 900;
+    border: 3px solid #D6254F;
+    padding: 20px 50px;
+    color: #FFF;
+    display: block;
+    min-height: 197px;
+}
+.redbox:hover {
+    background-color: #E67C95;
+    cursor: pointer
+}
+.redbox a:link,
+.redbox a:visited {
+    color: #FFF;
+    text-decoration: none
+}
+.proj-title{
+	font-size: 1.250em;
+}
+.proj-img {
+	margin: 20px 0px;
+	float: left;
+}
+.proj-desc {
+	font-size: 0.875em;
+}
+
+@media only screen and (max-width: 600px) {
+	.redbox {
+        padding: 10px 10px 10px 5px;
+        font-size: 1.1em;
+        margin: 20px auto;
+        color: #FFF
+    }
+    .proj-img {
+		margin: auto;
+		width: 100%;
+		float: none;
+	}
+}
+
+/* PROJECT END */

@@ -1,0 +1,2 @@
+http://www.blog.pythonlibrary.org/2010/05/22/wxpython-and-threads/
+http://wiki.wxpython.org/LongRunningTasks

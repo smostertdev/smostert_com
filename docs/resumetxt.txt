@@ -1,0 +1,58 @@
+﻿
+Sylvan Mostert
+77 Otonabee Avenue
+Toronto, ON, M2M 2S5
+(416) 221-8583
+
+1B Software Development
+Student Id#: 015-111-156
+sylvan.mostert@gmail.com
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//    SUMMARY OF QUALIFICATIONS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    * Programming experience in C, C++ and Python, strong knowledge of Java and Scheme.
+    * Experienced in working in Windows and Linux.
+    * Fundamental grasp of HTML, CSS and Javascript.
+    * Self-motivated, reliable, with good social and problem solving skills.
+    * Effective in verbal and written communication in English and French.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//    EXPERIENCE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Web Developer, Public Works and Government Services Canada, Chief Information Officer Branch, Toronto, ON, Sept. - Dec. 2014
+ * Developed accessible web content, and maintained web applications with SQL and Coldfusion.
+
+Computer Systems Analyst, Ontario Ministry of Attorney General, Office of the Public Guardian and Trustee, Toronto, ON, Jan. - Apr. 2014
+ * Managed asset database with scripting language Python, and worked with clients.
+
+Website Development, www.smostert.com, Jan. 2015 - present
+ * Created a functional website written from scratch with HTML, CSS and Jquery. Hosted on a raspberry pi home server.
+
+Camp Counsellor, Inter-Varsity Christian Fellowship of Canada, Ontario Pioneer Camp, Port Sydney, ON, July – Aug., 2010 – 2012. Leaders in Training, July – Aug., 2010
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//    EDUCATION
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Candidate for Bachelor of Technology, Software Development, Seneca College, Toronto, ON, January 2015 – present
+
+Certification Explore, Centre Linguistique du Collège de Jonquière, Jonquiere, QC, July 2011
+ * Five week French immersion program hosted by the Government of Canada and organized by multiple universities across Canada.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//    ACTIVITIES & INTERESTS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    * Successfully assembled desktop computer from parts, 2011
+    * Intramural Volleyball team captain, University of Waterloo, 2014
+    * Lighting and sound technology support 2010 – 2012
+    * Robotic club members, 2012
+

@@ -1,0 +1,16 @@
+/* RESUME START */
+
+.redbox {
+    background: url(../images/arrow-lo.png) 95% 50% no-repeat #430010;
+}
+.redbox:hover {
+    background: url(../images/arrow-lo.png) 95% 50% no-repeat #E67C95;
+    cursor: pointer
+}
+.redbox a {
+    padding: 20px 100px 20px 50px;
+    color: #FFF;
+    display: block
+}
+
+/* RESUME END */

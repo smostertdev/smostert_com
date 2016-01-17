@@ -1,0 +1,29 @@
+/* INDEX START */
+
+.featurebox {
+    width: 250px;
+    float: right;
+    margin: 20px
+}
+.featurebox a:link,
+.featurebox a:visited {
+    color: #FFF;
+    text-decoration: none
+}
+.featurebox a:hover {
+    text-decoration: underline
+}
+ul {
+    list-style-image: url(../images/small_rightarrow.png)
+}
+.featurebox ul {
+    list-style-image: url(../images/small_rightarrow_white.png)
+}
+@media only screen and (max-width: 600px) {
+    .featurebox {
+        width: auto;
+        float: none
+    }
+}
+
+/* INDEX END */
