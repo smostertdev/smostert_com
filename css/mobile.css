@@ -22,12 +22,7 @@
     h1 {
         word-break: normal
     }
-    .menulabel {
-        display: block
-    }
-    .menucheck:checked~ul {
-        display: inline
-    }
+    /* MENU START */
     .menucheck+.menulabel {
         background-image: url(../images/mobile-menu-clear-lo.png), url(../images/uarr.png);
         background-repeat: no-repeat, no-repeat;
@@ -45,44 +40,33 @@
         background-repeat: no-repeat, no-repeat;
         background-position: 95% 50%, 5% 50%
     }
-    nav {
+    .menucheck:checked ~ #navlist {
+        display: block;
+    }
+    #menu {
         z-index: 99;
         border-bottom: solid 2px #000
     }
-    nav ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        overflow: hidden;
-        font-size: 1.250em;
+    #menu ul {
         display: none
     }
-    nav ul li {
-        background-color: #000;
-        float: none;
-        width: 100%
-    }
-    nav ul li a {
-        text-decoration: none;
-        display: block;
+    #menu a {
         width: 100%;
-        position: relative;
-        text-align: center;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        color: #FFF
+        float: none;
+        line-height: 40px;
+        display: block;
     }
-    nav ul li.currenttab {
-        background-color: #FFF;
-        color: #000;
-        -webkit-box-shadow: none;
-        -moz-box-shadow: none;
-        box-shadow: none
-    }
-    nav ul li:hover a {
+    #menu a:hover {
         background-color: #D5D5D5;
-        cursor: pointer
+        color: #000000;
     }
+    #menu ul a.currenttab {
+        background-color: #FFF;
+        color: #000000;
+        cursor: default;
+    }
+
+/* MENU END */
     .centerdiv {
         width: 200px;
         margin: auto
