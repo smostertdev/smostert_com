@@ -3,12 +3,16 @@
 .featurebox {
     width: 250px;
     float: right;
-    margin: 20px
+    margin: 20px;
+    padding: 10px;
 }
 .featurebox a:link,
 .featurebox a:visited {
     color: #FFF;
     text-decoration: none
+}
+.redbox:hover {
+    text-decoration: none;
 }
 .featurebox a:hover {
     text-decoration: underline

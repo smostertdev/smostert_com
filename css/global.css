@@ -121,6 +121,7 @@ code {
 }
 .redbox:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 .redbox a {
     color: #FFF;
@@ -128,10 +129,6 @@ code {
 }
 .redbox a:hover {
     text-decoration: underline;
-}
-.featurebox {
-    width: 250px;
-    padding: 10px
 }
 header a:link,
 header a:visited,

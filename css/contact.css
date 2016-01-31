@@ -40,18 +40,24 @@
 }
 @media only screen and (max-width: 600px) {
     .contactbox {
-        padding: 10px 10px 10px 5px;
+        padding: 10px 10px 10px 10px;
         font-size: 1.1em;
         margin-right: 0;
         margin-top: 40px;
         color: #FFF
     }
+    .contactbox a {
+        padding: 20px 70px 20px 10px;
+    }
+    .centerdiv {
+        width: 100%;
+    }
     #portrait {
-        height: 263px;
-        width: 200px;
+        width: 300px;
         float: none;
+        margin: auto;
+        display: block;
         padding: 0;
-        margin: auto
     }
     #email,
     #facebook,
