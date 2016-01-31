@@ -3,7 +3,8 @@
 .skill {
     border: 3px solid #D6254F;
     margin-top: 20px;
-    width: 100%
+    width: 100%;
+    box-sizing: border-box;
 }
 .skillname {
     font-family: "Times New Roman", Times, serif;

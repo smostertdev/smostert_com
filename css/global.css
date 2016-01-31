@@ -1,5 +1,5 @@
 html {
-    overflow-y: scroll
+    overflow-y: scroll;
 }
 body {
     background-color: #C1AF8E;
@@ -93,6 +93,7 @@ code {
     word-wrap: normal;
     padding: 21px;
     border-left: 7px solid green;
+    box-sizing: border-box;
     background-color: #000;
     color: #fff;
     padding-left: 21px;
@@ -112,8 +113,21 @@ code {
     background-color: #430010;
     margin-top: 40px;
     font-size: 1.25em;
-    font-weight: 900;
-    border: 3px solid #D6254F
+    font-weight: 800;
+    border: 3px solid #D6254F;
+    line-height: 1.5em;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.redbox:hover {
+    text-decoration: underline;
+}
+.redbox a {
+    color: #FFF;
+    text-decoration: none;
+}
+.redbox a:hover {
+    text-decoration: underline;
 }
 .featurebox {
     width: 250px;

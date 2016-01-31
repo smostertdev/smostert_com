@@ -3,7 +3,7 @@
         background-color: #FFF;
         margin: 0px auto;
         width: 100%;
-        min-width: 262px
+        min-width: 350px
     }
     header {
         background-image: none;
@@ -45,7 +45,8 @@
     }
     #menu {
         z-index: 99;
-        border-bottom: solid 2px #000
+        border-bottom: solid 2px #000;
+        box-sizing: border-box;
     }
     #menu ul {
         display: none
