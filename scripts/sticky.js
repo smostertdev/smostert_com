@@ -34,15 +34,16 @@ window.onload = function(){
 
 		if(!sticky && offs > nav_offset) {
 			sticky = true;
-			nav.style.position = "fixed";
-			nav.style.top      = 0 + "px";
-			nav.style.width    = header.offsetWidth + "px";
-			
+			nav.style.position  = "fixed";
+			nav.style.top       = 0 + "px";
+			nav.style.width     = header.offsetWidth + "px";
+			nav.style.boxShadow = "0 8px 4px -4px #4D4D4D";
 		}
 
 		if(sticky && offs < nav_offset) {
 			sticky = false;
 			nav.style.position = "relative";
+			nav.style.boxShadow = "none";
 		}
 	}, 5);
 
