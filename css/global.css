@@ -54,7 +54,9 @@ header {
     color: #000000;
     cursor: default;
 }
-
+#fill {
+    height: 0px;
+}
 /* MENU END */
 
 
@@ -121,7 +123,6 @@ code {
 }
 .redbox:hover {
     text-decoration: underline;
-    cursor: pointer;
 }
 .redbox a {
     color: #FFF;
