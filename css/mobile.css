@@ -10,12 +10,7 @@
         min-width: 0px
     }
     header {
-        background-image: none;
-        word-break: normal;
-        margin: auto;
-        text-align: center;
-        font-size: 1.750em;
-        background-image: linear-gradient(#430010 40%, #693340)
+        display: none;
     }
     #content {
         -webkit-box-shadow: none;
@@ -50,7 +45,10 @@
     #menu {
         z-index: 99;
         border-bottom: solid 2px #000;
-        box-sizing: border-box;
+        border-top: solid 5px #D6254F;
+        position: fixed;
+        width: 100%;
+        opacity: 0.8;
     }
     #menu ul {
         display: none;
@@ -62,7 +60,7 @@
         display: block;
     }
     #menu a:hover {
-        background-color: #D5D5D5;
+        background-color: #FFF;
         color: #000000;
     }
     #menu ul a.currenttab {
@@ -70,6 +68,9 @@
         color: #000000;
         cursor: default;
     }
-
+    #fill {
+        height: 40px;
+        width: 100%;
+    }
 /* MENU END */
 }
