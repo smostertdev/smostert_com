@@ -48,7 +48,6 @@
         border-top: solid 5px #D6254F;
         position: fixed;
         width: 100%;
-        opacity: 0.8;
     }
     #menu ul {
         display: none;
@@ -58,6 +57,7 @@
         float: none;
         line-height: 40px;
         display: block;
+        background-color:rgba(0,0,0,0.8);
     }
     #menu a:hover {
         background-color: #FFF;

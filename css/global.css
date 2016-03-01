@@ -141,3 +141,21 @@ header a:active {
 footer {
 	background-color: #C1AF8E;
 }
+/* BACK TO TOP START */
+
+.back-to-top:link,
+.back-to-top:visited,
+.back-to-top:active {
+    position: fixed;
+    bottom: 2em;
+    right: 0px;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 12px;
+    padding: 1.5em;
+    display: none;
+    background-color:rgba(0,0,0,0.8);
+}
+
+/* BACK TO TOP END */
+
