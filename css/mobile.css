@@ -1,9 +1,13 @@
 @media only screen and (max-width: 600px) {
+    body {
+        background-color: #C1AF8E;
+        margin: 0px;
+    }
     #main {
         background-color: #FFF;
-        margin: 0px auto;
+        margin: 0px;
         width: 100%;
-        min-width: 350px
+        min-width: 0px
     }
     header {
         background-image: none;

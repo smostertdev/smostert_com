@@ -22,7 +22,7 @@ window.onload = function(){
 	var header_offset = header.offsetTop;
 
 	var offs = window.pageYOffset;
-	
+
 	if(!sticky && offs > nav_offset) {
 		sticky = true;
 		fill.style.height  = 40 + "px";
@@ -36,18 +36,21 @@ window.onload = function(){
 
 		if(!sticky && offs > nav_offset) {
 			sticky = true;
-			fill.style.height  = 40 + "px";
+			fill.style.height   = 40 + "px";
 			nav.style.position  = "fixed";
 			nav.style.top       = 0 + "px";
 			nav.style.width     = header.offsetWidth + "px";
-			nav.style.boxShadow = "0 8px 4px -4px #4D4D4D";
+			nav.style.boxShadow = "0px 15px 50px 0px rgba(0,0,0,0.50)";
+			nav.style.opacity   = "0.8";
+			//nav.style.boxShadow = "0 8px 4px -4px #4D4D4D";
 		}
 
 		if(sticky && offs < nav_offset) {
 			sticky = false;
-			nav.style.position = "relative";
+			nav.style.position  = "relative";
 			nav.style.boxShadow = "none";
-			fill.style.height  = 0 + "px";
+			fill.style.height   = 0 + "px";
+			nav.style.opacity   = "1";
 		}
 	}, 5);
 
