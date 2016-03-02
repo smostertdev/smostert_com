@@ -68,6 +68,62 @@
         color: #000000;
         cursor: default;
     }
+    .about {
+        background-image: url(../images/menu/about_white.png);
+        background-repeat: no-repeat;
+        background-position: 30px 50%;
+    }
+    .skills {
+        background-image: url(../images/menu/skills_white.png);
+        background-repeat: no-repeat;
+        background-position: 30px 50%;
+    }
+    .projects {
+        background-image: url(../images/menu/projects_white.png);
+        background-repeat: no-repeat;
+        background-position: 30px 50%;
+    }
+    .resume {
+        background-image: url(../images/menu/resume_white.png);
+        background-repeat: no-repeat;
+        background-position: 30px 50%;
+    }
+    .contact {
+        background-image: url(../images/menu/contact_white.png);
+        background-repeat: no-repeat;
+        background-position: 30px 50%;
+    }
+    /* for currenttab */
+    .about.currenttab,
+    .about:hover {
+        background-image: url(../images/menu/about_black.png);
+        background-repeat: no-repeat;
+        background-position: 30px 50%;
+    }
+    .skills.currenttab,
+    .skills:hover {
+        background-image: url(../images/menu/skills_black.png);
+        background-repeat: no-repeat;
+        background-position: 30px 50%;
+    }
+    .projects.currenttab,
+    .projects:hover {
+        background-image: url(../images/menu/projects_black.png);
+        background-repeat: no-repeat;
+        background-position: 30px 50%;
+    }
+    .resume.currenttab,
+    .resume:hover {
+        background-image: url(../images/menu/resume_black.png);
+        background-repeat: no-repeat;
+        background-position: 30px 50%;
+    }
+    .contact.currenttab,
+    .contact:hover{
+        background-image: url(../images/menu/contact_black.png);
+        background-repeat: no-repeat;
+        background-position: 30px 50%;
+    }
     #fill {
         height: 40px;
         width: 100%;
