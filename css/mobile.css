@@ -23,7 +23,7 @@
     }
     /* MENU START */
     .menucheck+.menulabel {
-        background-image: url(../images/mobile-menu-clear-lo.png), url(../images/uarr.png);
+        background-image: url(../images/menu/mobile-menu-clear-lo.png), url(../images/menu/uarr.png);
         background-repeat: no-repeat, no-repeat;
         background-position: 95% 50%, 5% 50%;
         background-color: #000;
@@ -35,7 +35,7 @@
         text-align: center
     }
     .menucheck:checked+.menulabel {
-        background-image: url(../images/mobile-menu-clear-lo.png), url(../images/darr.png);
+        background-image: url(../images/menu/mobile-menu-clear-lo.png), url(../images/menu/darr.png);
         background-repeat: no-repeat, no-repeat;
         background-position: 95% 50%, 5% 50%
     }

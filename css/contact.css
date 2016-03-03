@@ -6,15 +6,15 @@
 }
 .linkedin,
 .linkedin:hover {
-    background: url(../images/linkedin-lo.png) 95% 50% no-repeat #430010
+    background: url(../images/contact/linkedin-lo.png) 95% 50% no-repeat #430010
 }
 .email,
 .email:hover {
-    background: url(../images/email-lo.png) 95% 50% no-repeat #430010
+    background: url(../images/contact/email-lo.png) 95% 50% no-repeat #430010
 }
 .facebook,
 .facebook:hover {
-    background: url(../images/facebook-lo.png) 95% 50% no-repeat #430010
+    background: url(../images/contact/facebook-lo.png) 95% 50% no-repeat #430010
 }
 .contactbox {
     margin: 40px 300px 0 0;
