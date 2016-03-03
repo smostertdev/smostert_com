@@ -140,6 +140,12 @@ header a:active {
 footer {
 	background-color: #C1AF8E;
 }
+.badge {
+    border-radius: 5px;
+    background: #D6254F;
+    padding: 3px;
+    box-shadow: 10px 10px 25px -5px rgba(0,0,0,0.75);
+}
 /* BACK TO TOP START */
 
 .back-to-top:link,
