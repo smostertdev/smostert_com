@@ -10,6 +10,8 @@
 	<meta name="DC.identifier" content="http://www.smostert.com/index.html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/skeleton.css" />
 	<link rel="stylesheet" type="text/css" href="css/global.css" />
 	<!--link rel="stylesheet" type="text/css" href="css/mobile.css" /-->
 	<link rel="stylesheet" type="text/css" href="css/index.css" />
@@ -24,7 +26,7 @@
 <body>
 
 <!-- START MAIN -->
-<div id="main">
+<div class="main">
 
 	<!-- START HEADER -->
 	<header>
@@ -58,141 +60,152 @@
 	<!-- START CONTENT -->
 	<div class="container content">
 
-		<h1>Welcome</h1>
+		<div class="row">
+			<div class="col">
+				<h1>Welcome</h1>
 
-		<h2>Hello World!</h2>
+				<h2>Hello World!</h2>
 
-		<p>My name is Sylvan Mostert. I am a student at Seneca College (York Campus) doing a Bachelor of Technology, Software Development.</p>
-		<p>This site from the ground up with <abbr title="Hyper Text Markup Language">HTML5</abbr>, <abbr title="Cascading Style Sheet">CSS3</abbr>, and minimal Javascript. The code I write is clean and well documented, feel free to right click and "view source", or look at other projects I have done.</p>
+				<p>My name is Sylvan Mostert. I am a student at Seneca College (York Campus) doing a Bachelor of Technology, Software Development.</p>
+				<p>This site from the ground up with <abbr title="Hyper Text Markup Language">HTML5</abbr>, <abbr title="Cascading Style Sheet">CSS3</abbr>, and minimal Javascript. The code I write is clean and well documented, feel free to right click and "view source", or look at other projects I have done.</p>
 
-		<p>I always try to find the time to work on some side projects, but my priority is school work. You can keep track of the <a href="https://github.com/smostertdev/smostert_com">updates</a> I am making to this site, as well as other cool projects on Github. I regularly update my goals for this site, which are in the <a href="#todo">TODO</a> section below.</p>
-
-		<div class="redbox featurebox">
-			Installation Tests:<br />
-			<ul>
-				<li><a href="./osticket">osTicket</a></li>
-				<li><a href="./bugzilla">bugzilla</a></li>
-				<li><a href="./wp/index.php">WordPress</a></li>
-			</ul>
+				<p>I always try to find the time to work on some side projects, but my priority is school work. You can keep track of the <a href="https://github.com/smostertdev/smostert_com">updates</a> I am making to this site, as well as other cool projects on Github. I regularly update my goals for this site, which are in the <a href="#todo">TODO</a> section below.</p>
+			</div>
 		</div>
 
-		<h2>Server Purpose</h2>
+		<div class="row">
+			<div class="col-6 col">
+				<h2>Server Purpose</h2>
 
-		<p>The purpose of this server is to learn new skills, have a platform keep my projects, and to show some of my skills.</p>
+				<p>The purpose of this server is to learn new skills, have a platform keep my projects, and to show some of my skills.</p>
+				<p>The menu 'Installation Tests' has a few shortcuts to Open Source Projects I have installed on this server.</p>
+			</div>
 
-		<p>The menu 'Installation Tests' has a few shortcuts to Open Source Projects I have installed on this server.</p>
+			<div class="red-panel col-6 col">
+				<div class="red-panel-title">Installation Tests</div>
+				<div class="red-panel-body">
+					<ul>
+						<li><a href="./osticket">osTicket</a></li>
+						<li><a href="./bugzilla">bugzilla</a></li>
+						<li><a href="./wp/index.php">WordPress</a></li>
+					</ul>
+				</div>
+			</div>
 
-
-		<div class="clear"></div>
-
-
-		<!-- START EDITS -->
-		<h2 id="edits">Edits</h2>
-
-		<p>Edit January 29<sup>th</sup>, 2016:</p>
-		<ul>
-			<li>Note: the changes are now located on <a href="https://github.com/smostertdev/smostert_com">Github</a></li>
-		</ul>
-
-		<p>Edit September 19<sup>th</sup>, 2015:</p>
-		<ul>
-			<li>+ added <a href="./projects.html">Projects</a> page, still need to add content</li>
-		</ul>
-
-		<p>Edit July 15<sup>th</sup>, 2015:</p>
-		<ul>
-			<li>+ added 'Date Modified', Javascript</li>
-			<li>+ installed bugzilla at: <a href="./bugzilla">bugzilla</a> (loads slowly)</li>
-			<li>+ installed osTicket at: <a href="./osticket">osTicket</a></li>
-			<li>+ added &lt;code&gt; style. Going to add more to the content of 'Projects' soon. (And this index page is going to be changed soon too)</li>
-			<li>- Changed Apache configuration to restrict more.</li>
-			<li>~ other minor changes</li>
-		</ul>
-
-		<p>Edit July 4<sup>th</sup>, 2015:</p>
-		<ul>
-			<li>~ updated theme</li>
-			<li>+ installed wordpress at: <a href="./wp/index.php">WordPress</a> (loads slowly)</li>
-		</ul>
-
-		<p>Edit June 20<sup>th</sup>, 2015:</p>
-		<ul>
-			<li>+ compressed css</li>
-			<li>~ changed font</li>
-		</ul>
-
-		<p>Edit May 30<sup>th</sup>, 2015:</p>
-		<ul>
-			<li>+ Completed all metadata, header tags, changed titles, added descriptions</li>
-		</ul>
-
-		<p>Edit May 28<sup>th</sup>, 2015:</p>
-		<ul>
-			<li>+ Added subversion to my server! Check out a sample repo here: <a href="./svn/helloworld">helloworld</a></li>
-			<li>+ Got php and mysql working: <a href="./info.php">info.php</a>.</li>
-		</ul>
+		</div>
 
 
-		<p>Edit April 30<sup>th</sup>, 2015:</p>
-		<ul>
-			<li>- Reduced css on resume and contact page.</li>
-			<li>+ Added (Non-complete)HTML version of R&eacute;sume. -- Didn't link it yet</li>
-		</ul>
+		<div class="row">
+			<div class="col">
+				<!-- START EDITS -->
+				<h2 id="edits">Edits</h2>
 
-		<p>Edit April 28<sup>th</sup>, 2015:</p>
-		<ul>
-			<li>+ Line under mobile contact li</li>
-			<li>+ Added PDF version of R&eacute;sume.</li>
-			<li>+ Added Text version of R&eacute;sume.</li>
-		</ul>
-
-		<p>Edit April 27<sup>th</sup>, 2015:</p>
-		<ul>
-			<li>+ Added shadows on current li elements and content</li>
-			<li>+ Mobile narrowed margins</li>
-			<li>+ Added scrollbar on every page to keep width consistent.</li>
-		</ul>
-
-		<p>Edit March 30<sup>th</sup>, 2015:</p>
-		<ul>
-			<li>- Cleaned up a ton of stuff.</li>
-			<li>+ Mobile menu is almost complete.</li>
-			<li>- Full menu cleaned up.</li>
-			<li>- Folders cleaned up.</li>
-		</ul>
-		<!-- END EDITS -->
-
-
-		<!-- START TODO -->
-		<h2 id="todo">TODO:</h2>
-		<ul>
-			<li>I'm thinking of adding a warning for IE &lt; 9.</li>
-			<li>Make this page a big shorter.
+				<p>Edit January 29<sup>th</sup>, 2016:</p>
 				<ul>
-					<li>(scrolling for updates/ different interface -- rss?).</li>
-					<li>Change this TODO list</li>
-				</ul></li>
-			<li><span class="linethrough">Create</span> Finish HTML version of r&eacute;sume.</li>
-			<li><span class="linethrough">Should I add Server Side Includes?</span> LOL no.
-				<ul>
-					<li>Hmm, if I do I would like to get a program to 'compile' it to increase speed.</li>
+					<li>Note: the changes are now located on <a href="https://github.com/smostertdev/smostert_com">Github</a></li>
 				</ul>
-			</li>
-			<li>Skills Page:
+
+				<p>Edit September 19<sup>th</sup>, 2015:</p>
 				<ul>
-					<li>COMPLETELY re-do skills page, it's too difficult to read, and does not provide usefull information.</li>
-					<li>Add software to skills page</li>
-					<li>Want to add a search option to the skills page. (need to add better descriptions/keywords)</li>
+					<li>+ added <a href="./projects.html">Projects</a> page, still need to add content</li>
 				</ul>
-			</li>
-			<li>Projects Page:
+
+				<p>Edit July 15<sup>th</sup>, 2015:</p>
 				<ul>
-					<li>Think of design for Projects page.</li>
+					<li>+ added 'Date Modified', Javascript</li>
+					<li>+ installed bugzilla at: <a href="./bugzilla">bugzilla</a> (loads slowly)</li>
+					<li>+ installed osTicket at: <a href="./osticket">osTicket</a></li>
+					<li>+ added &lt;code&gt; style. Going to add more to the content of 'Projects' soon. (And this index page is going to be changed soon too)</li>
+					<li>- Changed Apache configuration to restrict more.</li>
+					<li>~ other minor changes</li>
 				</ul>
-			</li>
-			<li><span class="linethrough">DONE Line under mobile contact li.</span></li>
-		</ul>
-		<!-- END TODO -->
+
+				<p>Edit July 4<sup>th</sup>, 2015:</p>
+				<ul>
+					<li>~ updated theme</li>
+					<li>+ installed wordpress at: <a href="./wp/index.php">WordPress</a> (loads slowly)</li>
+				</ul>
+
+				<p>Edit June 20<sup>th</sup>, 2015:</p>
+				<ul>
+					<li>+ compressed css</li>
+					<li>~ changed font</li>
+				</ul>
+
+				<p>Edit May 30<sup>th</sup>, 2015:</p>
+				<ul>
+					<li>+ Completed all metadata, header tags, changed titles, added descriptions</li>
+				</ul>
+
+				<p>Edit May 28<sup>th</sup>, 2015:</p>
+				<ul>
+					<li>+ Added subversion to my server! Check out a sample repo here: <a href="./svn/helloworld">helloworld</a></li>
+					<li>+ Got php and mysql working: <a href="./info.php">info.php</a>.</li>
+				</ul>
+
+
+				<p>Edit April 30<sup>th</sup>, 2015:</p>
+				<ul>
+					<li>- Reduced css on resume and contact page.</li>
+					<li>+ Added (Non-complete)HTML version of R&eacute;sume. -- Didn't link it yet</li>
+				</ul>
+
+				<p>Edit April 28<sup>th</sup>, 2015:</p>
+				<ul>
+					<li>+ Line under mobile contact li</li>
+					<li>+ Added PDF version of R&eacute;sume.</li>
+					<li>+ Added Text version of R&eacute;sume.</li>
+				</ul>
+
+				<p>Edit April 27<sup>th</sup>, 2015:</p>
+				<ul>
+					<li>+ Added shadows on current li elements and content</li>
+					<li>+ Mobile narrowed margins</li>
+					<li>+ Added scrollbar on every page to keep width consistent.</li>
+				</ul>
+
+				<p>Edit March 30<sup>th</sup>, 2015:</p>
+				<ul>
+					<li>- Cleaned up a ton of stuff.</li>
+					<li>+ Mobile menu is almost complete.</li>
+					<li>- Full menu cleaned up.</li>
+					<li>- Folders cleaned up.</li>
+				</ul>
+				<!-- END EDITS -->
+
+
+				<!-- START TODO -->
+				<h2 id="todo">TODO:</h2>
+				<ul>
+					<li>I'm thinking of adding a warning for IE &lt; 9.</li>
+					<li>Make this page a big shorter.
+						<ul>
+							<li>(scrolling for updates/ different interface -- rss?).</li>
+							<li>Change this TODO list</li>
+						</ul></li>
+					<li><span class="linethrough">Create</span> Finish HTML version of r&eacute;sume.</li>
+					<li><span class="linethrough">Should I add Server Side Includes?</span> LOL no.
+						<ul>
+							<li>Hmm, if I do I would like to get a program to 'compile' it to increase speed.</li>
+						</ul>
+					</li>
+					<li>Skills Page:
+						<ul>
+							<li>COMPLETELY re-do skills page, it's too difficult to read, and does not provide usefull information.</li>
+							<li>Add software to skills page</li>
+							<li>Want to add a search option to the skills page. (need to add better descriptions/keywords)</li>
+						</ul>
+					</li>
+					<li>Projects Page:
+						<ul>
+							<li>Think of design for Projects page.</li>
+						</ul>
+					</li>
+					<li><span class="linethrough">DONE Line under mobile contact li.</span></li>
+				</ul>
+				<!-- END TODO -->
+			</div>
+		</div>
 
 	<div class="clear"></div>
 	<a class="back-to-top" href="#" style="display: inline;">Back to Top</a>
