@@ -23,6 +23,10 @@ h2 {
 p {
 	line-height: 150%
 }
+ul {
+    list-style-image: url(../images/small_rightarrow.png);
+    margin: 0px;
+}
 .content {
 	background-color: #FFFFFF;
 	padding: 10px 20px;
@@ -191,6 +195,20 @@ footer {
 .red-panel-body {
 	color: #000000;
 	padding: 15px;
+}
+.red-panel a:link,
+.red-panel a:visited {
+    color: #000000;
+    text-decoration: underline;
+}
+.red-panel a:hover {
+	text-decoration: none;
+}}
+.red-panel ul {
+    list-style-image: url(../images/small_rightarrow.png);
+    margin: 0px;
+}
+
 }
 
 /*
