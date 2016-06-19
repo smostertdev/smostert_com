@@ -1,3 +1,141 @@
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Note: The best way to structure the use of media queries is to create the queries
+near the relevant code. For example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it
+there.
+*/
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+
+
+    /* General
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+    .content {
+        padding: 10px 20px;
+    }
+
+    /* Header
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+    .page-title {
+        font-size: 3.125em;
+        line-height: 100px;
+        -webkit-box-shadow: inset 0px 136px 189px -140px rgba(255,255,255,0.25);
+        -moz-box-shadow: inset 0px 136px 189px -140px rgba(255,255,255,0.25);
+        box-shadow: inset 0px 136px 189px -140px rgba(255,255,255,0.25);
+    }
+
+    header {
+        background-color: #430010;
+        color: #FFFFFF;
+        position: relative;
+        z-index: 1;
+    }
+
+    .page-inner {
+        background-image: url(../images/raspi-md.jpg);
+        background-repeat: no-repeat;
+        background-position: 100% 50%;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        font-size: 1.25em;
+    }
+
+    nav a {
+        color: #FFFFFF;
+        width: 25%;
+        font-weight: bold;
+        float: left;
+        text-decoration: none;
+        text-align: center;
+        line-height: 40px;
+        border-width: 5px;
+        border-color: #000000;
+        border-bottom-style: solid;
+        border-top-style: solid;
+    }
+
+    nav a:hover {
+        background-color: #151414;
+        color: #000000;
+        border-width: 5px;
+        border-bottom-color: #d6254f;
+        border-top-color: #151414;
+        border-bottom-style: solid;
+        border-top-style: solid;
+
+        transition: border-bottom-color .15s ease-in-out;
+        -webkit-transition: border-bottom-color .15s ease-in-out;
+        -moz-transition: border-bottom-color .15s ease-in-out;
+    }
+
+    nav ul a.currenttab {
+        background-color: #FFF;
+        color: #000000;
+        cursor: default;
+
+        border-width: 5px;
+        border-color: #FFFFFF;
+        border-bottom-style: solid;
+        border-top-style: solid;
+
+        -webkit-border-top-left-radius: 5px;
+        -webkit-border-top-right-radius: 5px;
+        -moz-border-radius-topleft: 5px;
+        -moz-border-radius-topright: 5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    header a:link,
+    header a:visited,
+    header a:active {
+        text-decoration: none;
+        color: #FFF
+    }
+
+    .nav-wrapper {
+        background-color: #000;
+        z-index: 5;
+    }
+
+
+	input[type="checkbox"].menu-check,
+	.menu-label {
+		display: none;
+	}
+
+    .date-modified {
+        padding: 10px 0px;
+    }
+
+
+}
+
+/* Larger than tablet (also point when grid becomes active) */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
+
+/*
 @media only screen and (max-width: 600px) {
     body {
         background-color: #C1AF8E;
@@ -21,7 +159,8 @@
     h1 {
         word-break: normal
     }
-    /* MENU START */
+
+
     .menucheck+.menulabel {
         background-image: url(../images/menu/mobile-menu-clear-lo.png), url(../images/menu/uarr.png);
         background-repeat: no-repeat, no-repeat;
@@ -42,91 +181,40 @@
     .menucheck:checked ~ #navlist {
         display: block;
     }
-    #menu {
+    navu {
         z-index: 99;
         border-bottom: solid 2px #000;
         border-top: solid 5px #D6254F;
         position: fixed;
         width: 100%;
     }
-    #menu ul {
+    navu ul {
         display: none;
     }
-    #menu a {
+    navu a {
         width: 100%;
         float: none;
         line-height: 40px;
         display: block;
         background-color:rgba(0,0,0,0.8);
     }
-    #menu a:hover {
+    navu a:hover {
         background-color: #FFF;
         color: #000000;
     }
-    #menu ul a.currenttab {
+    navu ul a.currenttab {
         background-color: #FFF;
         color: #000000;
         cursor: default;
     }
-    .about {
-        background-image: url(../images/menu/about_white.png);
-        background-repeat: no-repeat;
-        background-position: 30px 50%;
-    }
-    .skills {
-        background-image: url(../images/menu/skills_white.png);
-        background-repeat: no-repeat;
-        background-position: 30px 50%;
-    }
-    .projects {
-        background-image: url(../images/menu/projects_white.png);
-        background-repeat: no-repeat;
-        background-position: 30px 50%;
-    }
-    .resume {
-        background-image: url(../images/menu/resume_white.png);
-        background-repeat: no-repeat;
-        background-position: 30px 50%;
-    }
-    .contact {
-        background-image: url(../images/menu/contact_white.png);
-        background-repeat: no-repeat;
-        background-position: 30px 50%;
-    }
-    /* for currenttab */
-    .about.currenttab,
-    .about:hover {
-        background-image: url(../images/menu/about_black.png);
-        background-repeat: no-repeat;
-        background-position: 30px 50%;
-    }
-    .skills.currenttab,
-    .skills:hover {
-        background-image: url(../images/menu/skills_black.png);
-        background-repeat: no-repeat;
-        background-position: 30px 50%;
-    }
-    .projects.currenttab,
-    .projects:hover {
-        background-image: url(../images/menu/projects_black.png);
-        background-repeat: no-repeat;
-        background-position: 30px 50%;
-    }
-    .resume.currenttab,
-    .resume:hover {
-        background-image: url(../images/menu/resume_black.png);
-        background-repeat: no-repeat;
-        background-position: 30px 50%;
-    }
-    .contact.currenttab,
-    .contact:hover{
-        background-image: url(../images/menu/contact_black.png);
-        background-repeat: no-repeat;
-        background-position: 30px 50%;
-    }
+
+
+
     #fill {
         height: 40px;
         width: 100%;
     }
-/* MENU END */
+
+
 }
+*/
