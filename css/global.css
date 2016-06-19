@@ -24,8 +24,8 @@ p {
 	line-height: 150%
 }
 ul {
-    list-style-image: url(../images/small_rightarrow.png);
-    margin: 0px;
+	list-style-image: url(../images/small_rightarrow.png);
+	margin: 0px;
 }
 .content {
 	background-color: #FFFFFF;
@@ -58,6 +58,95 @@ code {
 
 /* Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.page-title {
+	display: none;
+}
+
+header a:link,
+header a:visited,
+header a:active {
+	text-decoration: none;
+	color: #FFF
+}
+
+header {
+	color: #FFFFFF;
+	text-align: center;
+	width: 100%;
+	z-index: 1;
+}
+
+header {
+	border-bottom: solid 2px #000;
+	border-top: solid 5px #D6254F;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+nav.container {
+	margin: 0px;
+	padding: 0px;
+}
+
+nav ul {
+	display: none;
+	list-style: none;
+	padding: 0px;
+}
+
+nav a {
+	width: 100%;
+	float: none;
+	line-height: 40px;
+	display: block;
+	background-color:rgba(0,0,0,0.8);
+}
+
+nav a:hover {
+	background-color: #FFF;
+	color: #000000;
+}
+
+nav ul a.currenttab {
+	background-color: #FFF;
+	color: #000000;
+	cursor: default;
+}
+
+.menu-label {
+	background-color: #000000;
+	margin: 0px;
+	line-height: 60px;
+	background-image: url(../images/menu/mobile-menu-clear-lo.png), url(../images/menu/uarr.png);
+	background-repeat: no-repeat, no-repeat;
+	background-position: 95% 50%, 5% 50%;
+	background-color: #000;
+	display: block;
+	font-weight: 900;
+	font-size: 1.250em;
+	color: #FFF;
+	text-align: center;
+}
+
+.menu-check:checked+.menu-label {
+	background-image: url(../images/menu/mobile-menu-clear-lo.png), url(../images/menu/darr.png);
+	background-repeat: no-repeat, no-repeat;
+	background-position: 95% 50%, 5% 50%;
+}
+
+.menu-check:checked ~ ul {
+	display: block;
+}
+
+input[type="checkbox"].menu-check {
+	display:none;
+}
+
+.menu-fill {
+	height: 60px;
+	width: 100%;
+}
 
 
 /* icons on menu */
@@ -89,32 +178,32 @@ code {
 
 
 /* black icons on hover */
-.about.currenttab
-/* .about:hover */ {
+.about.currenttab,
+.about:hover {
 	background-image: url(../images/menu/about_black.png);
 	background-repeat: no-repeat;
 	background-position: 30px 50%;
 }
-.skills.currenttab
-/* .skills:hover */ {
+.skills.currenttab,
+.skills:hover {
 	background-image: url(../images/menu/skills_black.png);
 	background-repeat: no-repeat;
 	background-position: 30px 50%;
 }
-.projects.currenttab
-/* .projects:hover */ {
+.projects.currenttab,
+.projects:hover {
 	background-image: url(../images/menu/projects_black.png);
 	background-repeat: no-repeat;
 	background-position: 30px 50%;
 }
-.resume.currenttab
-/* .resume:hover */ {
+.resume.currenttab,
+.resume:hover {
 	background-image: url(../images/menu/resume_black.png);
 	background-repeat: no-repeat;
 	background-position: 30px 50%;
 }
-.contact.currenttab
-/* .contact:hover */ {
+.contact.currenttab,
+.contact:hover {
 	background-image: url(../images/menu/contact_black.png);
 	background-repeat: no-repeat;
 	background-position: 30px 50%;
@@ -129,7 +218,7 @@ code {
 .back-to-top:visited,
 .back-to-top:active {
 	position: fixed;
-	bottom: 2.5em;
+	bottom: 3.5em;
 	right: 0px;
 	text-decoration: none;
 	color: #FFF;
@@ -174,17 +263,14 @@ footer {
 .red-panel a:link,
 .red-panel a:visited,
 .red-panel a:active {
-    color: #000000;
-    text-decoration: underline;
+	color: #000000;
+	text-decoration: underline;
 }
 .red-panel a:hover {
 	text-decoration: none;
 }
 .red-panel ul {
-    list-style-image: url(../images/small_rightarrow.png);
-    margin: 0px;
+	list-style-image: url(../images/small_rightarrow.png);
+	margin: 0px;
 }
 
-.menu-fill {
-	height: 0px;
-}
