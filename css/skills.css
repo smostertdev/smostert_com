@@ -1,40 +1,14 @@
-/* SKILLS START */
 
-.skill {
-    border: 3px solid #D6254F;
-    margin-top: 20px;
-    width: 100%;
-    box-sizing: border-box;
+
+.skill-panel {
+    border-width: 3px;
+    border-style: solid;
+    border-color: #D6254F;
+    border-radius: 5px;
+    margin: 10px 0px;
 }
-.skillname {
-    font-family: "Times New Roman", Times, serif;
-    float: left;
-    width: 150px;
-    text-align: center;
-    font-size: 1.25em;
-    font-weight: 900;
-    margin: auto
-}
-.skilldesc {
+
+.skill-panel-title {
+    color: #FFFFFF;
     background-color: #430010;
-    overflow: auto;
-    color: #FFF;
-    font-size: 1.063em;
-    line-height: 1.75em;
-    padding-right: 5px;
 }
-ul {
-    list-style-image: url(../images/small_rightarrow_white.png)
-}
-@media only screen and (max-width: 600px) {
-    .skillname {
-        float: none
-    }
-    .skilldesc {
-        word-break: normal;
-        height: 200px;
-        height: auto
-    }
-}
-
-/* SKILLS END */

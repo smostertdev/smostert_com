@@ -273,4 +273,79 @@ footer {
 	list-style-image: url(../images/small_rightarrow.png);
 	margin: 0px;
 }
+.red-panel p {
+	margin: 1rem 0rem;
+}
 
+
+
+
+
+.red-collapse {
+	margin-top:5px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+}
+.red-collapse-title {
+	background-color: #430010;
+	line-height: 2em;
+	padding: 0px 15px;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+.red-collapse a:link,
+.red-collapse a:visited,
+.red-collapse a:active {
+	color: #000000;
+	text-decoration: underline;
+}
+.red-collapse input {
+	display: none;
+}
+
+.red-collapse-title::before {
+	content: "\25BA\00A0";
+}
+.red-collapse input:checked ~.red-collapse-title::before {
+	content: "\25BC\00A0";
+}
+.red-collapse-body {
+	color: #000000;
+	height: 0px;
+	overflow: hidden;
+	-webkit-transition: height 0.3s ease-in-out;
+	-moz-transition: height 0.3s ease-in-out;
+	-o-transition: height 0.3s ease-in-out;
+	-ms-transition: height 0.3s ease-in-out;
+	transition: height 0.3s ease-in-out;
+}
+.red-collapse input:checked ~.red-collapse-body {
+	height: 75px;
+	-webkit-transition: height 0.3s ease-in-out;
+	-moz-transition: height 0.3s ease-in-out;
+	-o-transition: height 0.3s ease-in-out;
+	-ms-transition: height 0.3s ease-in-out;
+	transition: height 0.3s ease-in-out;
+}
+span.progress {
+	font-size: 2em;
+	float: right;
+	display: inline-block;
+}
+
+/* from bootstrap */
+.badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #d6254f;
+    border-radius: 10px;
+}
