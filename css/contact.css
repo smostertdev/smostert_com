@@ -24,9 +24,16 @@
     padding-left: 5px;
     color: #FFFFFF;
     padding-right: 60px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
-
-
+.red-box a:link,
+.red-box a:visited,
+.red-box a:active {
+	text-decoration: none;
+}
+.red-box a:hover {
+	text-decoration: underline;
+}
 
 .linkedin,
 .linkedin:hover {
