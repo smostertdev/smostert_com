@@ -1,40 +1,43 @@
 /* PROJECT START */
 
-.proj-all {
+.project img {
 	width: 100%;
 }
 
-.proj-box {
-	float: left;
-	width: 31%;
+.project h2 {
+	min-height: 72px;
+}
+.project {
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
 	padding: 10px;
-	margin: 10px;
-	border: 5px solid black;
-	box-sizing: border-box;
+	margin-bottom: 10px;
+
 }
 
-.proj-desc {
-	height: 100px;
+.proj-button,
+.project {
+	height: 100%;
 }
 
-.proj-img {
-	margin: auto;
-	display: block;
-}
-
-.redbox {
-	padding: 10px;
+.proj-button .button {
 	width: 100%;
-	margin: auto;
 }
 
-@media only screen and (max-width: 600px) {
-	
-	.proj-box {
-		margin: 10px auto;
-		width: 100%;
-		display: block;
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+
+	.project {
+		margin-left: 1%;
+	}
+
+	.four.columns {
+		width: 32.5%;
+	}
+	.proj-desc {
+		min-height: 150px;
 	}
 }
-
 /* PROJECT END */

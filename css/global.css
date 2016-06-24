@@ -117,7 +117,7 @@ nav ul a.currenttab {
 .menu-label {
 	background-color: #000000;
 	margin: 0px;
-	line-height: 60px;
+	line-height: 50px;
 	background-image: url(../images/menu/mobile-menu-clear-lo.png), url(../images/menu/uarr.png);
 	background-repeat: no-repeat, no-repeat;
 	background-position: 95% 50%, 5% 50%;

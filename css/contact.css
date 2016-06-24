@@ -1,73 +1,61 @@
 /* CONTACT START */
 
-#portrait {
+.centerdiv img {
+    margin: auto;
+    display: block;
     padding: 20px 0 20px 20px;
-    float: right
 }
+
+.red-box {
+    background-color: #430010;
+    border-color: #d6254f;
+    border-width: 5px;
+    border-radius: 5px;
+    border-style: solid;
+
+    margin-top: 10px;
+}
+
+.red-box p,
+.red-box a {
+    margin: 0px;
+    line-height: 60px;
+    font-size: 1em;
+    padding-left: 5px;
+    color: #FFFFFF;
+    padding-right: 60px;
+}
+
+
+
 .linkedin,
 .linkedin:hover {
-    background: url(../images/contact/linkedin-lo.png) 95% 50% no-repeat #430010
+    background: url(../images/contact/linkedin-lo.png) 95% 50% no-repeat;
 }
 .email,
 .email:hover {
-    background: url(../images/contact/email-lo.png) 95% 50% no-repeat #430010
+    background: url(../images/contact/email-lo.png) 95% 50% no-repeat;
 }
 .facebook,
 .facebook:hover {
-    background: url(../images/contact/facebook-lo.png) 95% 50% no-repeat #430010
+    background: url(../images/contact/facebook-lo.png) 95% 50% no-repeat;
 }
-.contactbox {
-    margin: 40px 300px 0 0;
-    font-size: 1.250em;
-    font-weight: 900;
-    word-break: break-all;
-    border: 3px solid #D6254F;
-    box-sizing: border-box;
-}
-.contactbox:hover {
-    background-color: #E67C95;
-    cursor: pointer
-}
-.contactbox a {
-    padding: 20px 70px 20px 50px;
-    color: #FFF;
-    display: block
-}
-.contactbox a:link,
-.contactbox a:visited {
-    color: #FFF;
-    text-decoration: none
-}
-@media only screen and (max-width: 600px) {
-    .contactbox {
-        padding: 10px 10px 10px 10px;
+
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+    .red-box p,
+    .red-box a {
         font-size: 1.1em;
-        margin-right: 0;
-        margin-top: 40px;
-        color: #FFF
-    }
-    .contactbox a {
-        padding: 20px 70px 20px 10px;
-    }
-    .centerdiv {
-        width: 100%;
-    }
-    #portrait {
-        width: 300px;
-        float: none;
-        margin: auto;
-        display: block;
-        padding: 0;
-    }
-    #email,
-    #facebook,
-    #linkedin {
-        padding-right: 60px
-    }
-    .currenttab {
-        border-bottom: solid 2px #FFF;
-        box-sizing: border-box;
     }
 }
+
+@media (min-width: 700px) {
+    .red-box p,
+    .red-box a {
+        font-size: 1.4em;
+    }
+}
+
 
 /* CONTACT END */
